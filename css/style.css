@@ -1,0 +1,51 @@
+body { /* CORPO DA PAG */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header { /* TITULO PRINCIPAL */
+  text-align: center;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+#logo { /* tamanho da logo principal */
+  width: 180px;
+  height: 120px;
+}
+
+.bar { /* BARRA NAV PRINCIPAL */
+  display: flex;
+  justify-content: unsafe; /* ISSO FEZ AS DIV DAS OPCOES FICAREM NA MESMA LINHA SEM ESPACOS */
+}
+
+.option1, .option2 { /* OPCOES DA BARRA NAV PRINCIPAL */
+  display: inline-block;
+  width: 50%;
+  height: 60px;
+  margin: 0;
+  background-color: rgb(38, 38, 38);
+  text-align: center;
+  line-height: 60px; /* Centraliza o texto verticalmente */
+  font-size: 18px;
+}
+
+nav a { /* DISFARCAR LINKS DA BARRA NV */
+  text-decoration: none;
+  color: white;
+}
+
+.option1:hover { /* MOUSE EM CIMA MUDA O FUNDO DA OPCAO 1*/
+  background-color: #076DF2;
+  transition: all 1.5s ease;
+}
+
+.option2:hover { /* MOUSE EM CIMA MUDA O FUNDO DA OPCAO 2*/
+  background-color: #6FD904;
+  transition: all 1.5s ease;
+}
+
